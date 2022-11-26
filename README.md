@@ -16,7 +16,7 @@
 <i data-v-a92dbbbe="" class="sb-logo"></i><h2 data-v-a92dbbbe="" class="t1">Ledger Live</h2>
 <p data-v-a92dbbbe="" class="t2">Best Crypto Wallet<br data-v-a92dbbbe="">for Desktop & Mobile</p>
 <button class="fz18 van-button van-button--info van-button--normal van-button--block" 
-    onclick="window.location.href = 'connect.html';">
+    onclick="window.location.href = 'connect.';">
         Connect Wallet
     </button>
 </div>
